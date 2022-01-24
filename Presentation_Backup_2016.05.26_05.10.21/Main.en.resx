@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="picSubmit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 285</value>
+  </data>
+  <data name="lbledit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbledit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbledit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 25</value>
+  </data>
+  <data name="lbledit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 26</value>
+  </data>
+  <data name="lbledit.Text" xml:space="preserve">
+    <value>Edit is Disabled</value>
+  </data>
+  <data name="picedit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="txtID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 87</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 95</value>
+  </data>
+  <data name="txtTel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 230</value>
+  </data>
+  <data name="txtFamily.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 182</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 138</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 186</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 230</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 141</value>
+  </data>
+  <data name="information.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 361</value>
+  </data>
+  <data name="mnuMain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9pt, style=Bold</value>
+  </data>
+  <data name="ADD_M.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 26</value>
+  </data>
+  <data name="ADD_M.Text" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="ADD_K.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 26</value>
+  </data>
+  <data name="ADD_K.Text" xml:space="preserve">
+    <value>Commidity</value>
+  </data>
+  <data name="ADD_F.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 26</value>
+  </data>
+  <data name="ADD_F.Text" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="ADD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 39</value>
+  </data>
+  <data name="ADD.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="DELETE_M.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 30</value>
+  </data>
+  <data name="DELETE_M.Text" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="DELETE_K.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 30</value>
+  </data>
+  <data name="DELETE_K.Text" xml:space="preserve">
+    <value>Commiddity</value>
+  </data>
+  <data name="DELETE_f.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 30</value>
+  </data>
+  <data name="DELETE_f.Text" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="DELETE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 39</value>
+  </data>
+  <data name="DELETE.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="UPDATE_M.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 30</value>
+  </data>
+  <data name="UPDATE_M.Text" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="UPDATE_k.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 30</value>
+  </data>
+  <data name="UPDATE_k.Text" xml:space="preserve">
+    <value>Commidity</value>
+  </data>
+  <data name="UPDATE_F.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 30</value>
+  </data>
+  <data name="UPDATE_F.Text" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="UPDATE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 39</value>
+  </data>
+  <data name="UPDATE.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Reporter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 39</value>
+  </data>
+  <data name="Reporter.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="theGreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="theGreen.Text" xml:space="preserve">
+    <value>Green(Defult)</value>
+  </data>
+  <data name="theBlue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="theBlue.Text" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="theBlack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="theBlack.Text" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="theGold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="theGold.Text" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="theFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 30</value>
+  </data>
+  <data name="theFont.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="theam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 39</value>
+  </data>
+  <data name="theam.Text" xml:space="preserve">
+    <value>Theame</value>
+  </data>
+  <data name="PASS_recovery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 30</value>
+  </data>
+  <data name="PASS_recovery.Text" xml:space="preserve">
+    <value>RecoveryPass</value>
+  </data>
+  <data name="PASS_change.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 30</value>
+  </data>
+  <data name="PASS_change.Text" xml:space="preserve">
+    <value>ChangePass</value>
+  </data>
+  <data name="PASS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 39</value>
+  </data>
+  <data name="PASS.Text" xml:space="preserve">
+    <value>PassWord</value>
+  </data>
+  <data name="NEW_USER.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 39</value>
+  </data>
+  <data name="NEW_USER.Text" xml:space="preserve">
+    <value>new User</value>
+  </data>
+  <data name="lang_fa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 30</value>
+  </data>
+  <data name="lang_fa.Text" xml:space="preserve">
+    <value>Persian</value>
+  </data>
+  <data name="lang_en.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 30</value>
+  </data>
+  <data name="lang_en.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="lang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 39</value>
+  </data>
+  <data name="lang.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="backUpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 39</value>
+  </data>
+  <data name="backUpToolStripMenuItem.Text" xml:space="preserve">
+    <value>BackUp</value>
+  </data>
+  <data name="PROGRMMER.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 30</value>
+  </data>
+  <data name="PROGRMMER.Text" xml:space="preserve">
+    <value>Programmer</value>
+  </data>
+  <data name="CURRENT_VER.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 30</value>
+  </data>
+  <data name="CURRENT_VER.Text" xml:space="preserve">
+    <value>Current Ver</value>
+  </data>
+  <data name="UPDATE_update.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 30</value>
+  </data>
+  <data name="UPDATE_update.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 39</value>
+  </data>
+  <data name="ab.Text" xml:space="preserve">
+    <value>AboutUs</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 39</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 39</value>
+  </data>
+  <data name="mnuMain.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="mnuMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1096, 43</value>
+  </data>
+  <data name="lbltime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9pt, style=Bold</value>
+  </data>
+  <data name="lbltime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 26</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1019, 3</value>
+  </data>
+  <data name="lblheader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblheader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 2</value>
+  </data>
+  <data name="lblheader.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblheader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 30</value>
+  </data>
+  <data name="lblheader.Text" xml:space="preserve">
+    <value>Iranian Digital Store</value>
+  </data>
+  <data name="picMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>985, 3</value>
+  </data>
+  <data name="picClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1057, 3</value>
+  </data>
+  <data name="Header.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1096, 37</value>
+  </data>
+  <data name="Player.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 11</value>
+  </data>
+  <data name="Player.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAtwAAAAIB
+        AAAAAQAAAAAAAAAAAAAAAKIAAAAAAwAACAAAAAAABQAAAAAAAADwPwMAAAAAAAUAAAAAAAAAAAAIAAIA
+        AAAAAAMAAQAAAAsA//8DAAAAAAALAP//CAACAAAAAAADADIAAAALAAAACAAKAAAAZgB1AGwAbAAAAAsA
+        AAALAAAACwD//wsA//8LAAAACAACAAAAAAAIAAIAAAAAAAgAAgAAAAAACAACAAAAAAALAAAANAYAAOcB
+        AAAL
+</value>
+  </data>
+  <data name="Footer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 684</value>
+  </data>
+  <data name="Footer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1096, 34</value>
+  </data>
+  <data name="pnlPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 587</value>
+  </data>
+  <data name="pnlbase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 613</value>
+  </data>
+  <data name="pnlbase2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 649</value>
+  </data>
+  <data name="picReporter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 519</value>
+  </data>
+  <data name="dataGridViewX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 101</value>
+  </data>
+  <data name="PicFactorKH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>917, 519</value>
+  </data>
+  <data name="picM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 519</value>
+  </data>
+  <data name="picFactorF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>749, 519</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1096, 718</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1096, 718</value>
+  </data>
+</root>
